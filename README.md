@@ -1,5 +1,5 @@
 
-# 🧠 AI-Powered Data Pipeline Auditor (Colab Edition)
+# 🧠 AI-Powered Data Pipeline Auditor
 
 This project analyzes Azure Data Factory (ADF) pipeline JSONs using an open-source LLM in Google Colab. It provides intelligent architecture reviews, detects bottlenecks, and suggests performance optimizations.
 
@@ -43,7 +43,3 @@ Want to support Synapse pipelines or visualize with Streamlit? Fork it and impro
 
 ## 📌 Author
 Kanaagalakshmi Senthil · Azure Cloud Engineer
-
----
-
-*Built to impress data engineers, architects, and AI-enthusiasts with 100% open-source tooling.*
