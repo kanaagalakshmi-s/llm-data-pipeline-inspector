@@ -1,0 +1,36 @@
+{
+  "name": "SamplePipeline",
+  "properties": {
+    "activities": [
+      {
+        "name": "CopyFromBlobToSQL"
+      },
+      {
+        "name": "RunStoredProc"
+      },
+      {
+        "name": "WaitActivity"
+      }
+    ],
+    "triggers": [
+      {
+        "name": "DailyTrigger",
+        "type": "ScheduleTrigger",
+        "typeProperties": {
+          "recurrence": {
+            "frequency": "Day",
+            "interval": 1
+          }
+        }
+      }
+    ],
+    "linkedServices": [
+      {
+        "name": "AzureBlobStorage"
+      },
+      {
+        "name": "AzureSQLDatabase"
+      }
+    ]
+  }
+}
